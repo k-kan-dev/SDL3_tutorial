@@ -1,0 +1,12 @@
+# setting files
+.git
+.vscode
+
+# SDL3 libraries
+build/
+SDL/
+src/
+SDL3.dll
+
+# output
+output/
