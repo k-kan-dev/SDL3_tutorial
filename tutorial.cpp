@@ -95,6 +95,8 @@ int main( int argc, char *argv[] )
              */
             if ( SDL_EVENT_KEY_DOWN == windowEvent.type )
             {
+                if ( SDLK_ESCAPE == windowEvent.key.key )
+                { break; }
                 // std::cout << "Key is donw" << std::endl; 
                 if ( SDLK_W == windowEvent.key.key )
                 { std::cout << "up" << std::endl; }
