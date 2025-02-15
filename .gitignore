@@ -3,8 +3,6 @@
 .vscode
 
 # SDL3 libraries
-build/
-SDL/
 src/
 SDL3.dll
 
