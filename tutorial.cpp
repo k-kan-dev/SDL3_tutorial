@@ -8,7 +8,7 @@ const int WIDTH = 800,  HEIGHT = 600;
 int main( int argc, char *argv[] )
 {
     bool res = SDL_Init(SDL_INIT_VIDEO); // means SDL_INIT( SDL_INIT_EVERYHTING)
-    std::cout << std::boolalpha  << res << std::endl;
+
     SDL_Window *window = SDL_CreateWindow(
         "Hello SDL WORLD",
         WIDTH, HEIGHT, 
